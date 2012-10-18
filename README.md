@@ -24,6 +24,13 @@ Snoobi will evaluate your code based on following conditions:
 * Application must work well with newest Firefox and/or Chrome
  * Forget IE :)
 
+## Rules
+* Third party libraries are allowed to use
+* You must code the application yourself
+ * No copy-pasting from external projects
+* Database abstraction can be utilized
+* Comment your code blocks
+
 ## Data model requirements
 
 * Post relates to single forum category
@@ -34,8 +41,11 @@ Snoobi will evaluate your code based on following conditions:
 * Post must hold at least "Subject", "Body", "Username" and "Created time"
 * Reply must hold at least "Body", "Username" and "Created time"
 
-## Publishing the application
+## Deliverables
 
-* Publish your source code to github
- * Other git based repository can be used as well
+* Publish your work to github (or send via email)
+ * Source code
+ * Database schema
+ * Documentation
 * Deploy application to some web server so Snoobi can play around with it
+* Inform Snoobi (jobs at snoobi.com) when your application is ready
