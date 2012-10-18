@@ -15,21 +15,21 @@ Application must be written in PHP 5.3.6 (or higher) and MySQL 5.1.53 (or higher
 ## Rating
 
 Snoobi will evaluate your code based on following conditions:
-* Code structure (MVC or other design pattern)
+* Code structure
 * End-user usability
 * SQL statements
-* OWASP top 10 web application risks
- * https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project
+* Application security
 * UI can look ugly from the CSS point of view
  * Emphasis on the usability rather than "eye-candy"
-* Application must work well with newest Firefox and Chrome
+* Application must work well with newest Firefox and/or Chrome
+ * Forget IE :)
 
 ## Data model requirements
 
 * Post relates to single forum category
 * Reply relates to single Post
-* One Post can have zero or more Replies
-* One forum category can have zero or more Posts
+* One Post may have Replies
+* One forum category may have Posts
 * Forum category must hold at least "Name", "Number of posts" and "Last activity time"
 * Post must hold at least "Subject", "Body", "Username" and "Created time"
 * Reply must hold at least "Body", "Username" and "Created time"
